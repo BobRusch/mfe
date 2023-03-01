@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: 
-          npm run build
+          Webpack build
         env: 
           PRODUCTION_MAIN: ${{secrets.PRODUCTION_DOMAIN}}
 
