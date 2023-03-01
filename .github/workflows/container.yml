@@ -19,7 +19,6 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: 
-          pwd
           npm run build
         env: 
           PRODUCTION_MAIN: ${{secrets.PRODUCTION_DOMAIN}}
